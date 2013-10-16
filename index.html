@@ -2,12 +2,20 @@
 <html>
 <head>
 	<title>Phaser - ping pong</title>
+<<<<<<< HEAD
+
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-
+<div id="container">
+    
+</div>
 <script src="phaser.js"></script>
 <script type="text/javascript">
-    var game = new Phaser.Game( 500, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update } ),
+    var container = document.getElementById('container');
+
+    var game = new Phaser.Game( 500, 600, Phaser.AUTO, 'container', { preload: preload, create: create, update: update } ),
+>>>>>>> gh-pages
     	playerBet,
     	playerBetInitPosY = 560,
         computerBet,
